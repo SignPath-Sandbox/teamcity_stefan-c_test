@@ -24,7 +24,7 @@ project {
         apiToken = "credentialsJSON:a03ec855-c92c-4f33-8877-b8ab1726afd4"
         projectSlug = "Stefans_Teamcity_Project"
         signingPolicySlug = "test-signing"
-        inputArtifactPath = "Loop.ps2"
+        inputArtifactPath = "Loop.ps1"
         outputArtifactPath = "Loop-signed.ps1"
         waitForCompletion = true
       }
