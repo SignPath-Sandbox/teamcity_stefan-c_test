@@ -22,7 +22,7 @@ project {
         connectorUrl = "https://teamcity-connector-stable.customersimulation.int.signpath.io"     
         organizationId = "9ff791fc-c563-44e3-ab8c-86a33c910bbe"
         apiToken = "credentialsJSON:a03ec855-c92c-4f33-8877-b8ab1726afd4"
-        projectSlug = "Stefans Teamcity_Project"
+        projectSlug = "Stefans_Teamcity_Project"
         signingPolicySlug = "test-signing"
         inputArtifactPath = "Loop.ps1"
         outputArtifactPath = "Loop-signed.ps1"
