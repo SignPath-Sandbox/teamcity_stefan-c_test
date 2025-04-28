@@ -25,7 +25,7 @@ project {
         projectSlug = "Stefans_Teamcity_Project"
         signingPolicySlug = "test-signing"
         artifactConfigurationSlug = "initial"
-        inputArtifactPath = "Loop.ps1"
+        inputArtifactPath = "Loop.ps2"
         outputArtifactPath = "Loop-signed.ps1"
         waitForCompletion = true
          parameters = """
