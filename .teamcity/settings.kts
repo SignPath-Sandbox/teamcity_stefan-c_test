@@ -23,7 +23,7 @@ project {
       // sign step
       signPathSubmitSigningRequest {
         connectorUrl = "https://teamcity-connector-stable.customersimulation.int.signpath.io"     
-        organizationId = "9ff791fc-c563-44e3-ab8c-86a33c910bbb"
+        organizationId = "9ff791fc-c563-44e3-ab8c-86a33c910bbe"
         apiToken = "AOvzr0R0L1GZkr62ywYuayzYaanvWMqXgnVRGpg5yzaR"
         projectSlug = "Stefans_Teamcity_Project"
         signingPolicySlug = "test-signing"
