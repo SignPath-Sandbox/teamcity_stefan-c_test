@@ -15,13 +15,16 @@ project {
       cleanCheckout = true
     }
 
-    steps {  
+    // correct Org: 9ff791fc-c563-44e3-ab8c-86a33c910bbe
+    // correct apiToken apiToken = "credentialsJSON:a03ec855-c92c-4f33-8877-b8ab1726afd4"
+
+   steps {  
 
       // sign step
       signPathSubmitSigningRequest {
         connectorUrl = "https://teamcity-connector-stable.customersimulation.int.signpath.io"     
         organizationId = "9ff791fc-c563-44e3-ab8c-86a33c910bbb"
-        apiToken = "credentialsJSON:a03ec855-c92c-4f33-8877-b8ab1726afd4"
+        apiToken = "AOvzr0R0L1GZkr62ywYuayzYaanvWMqXgnVRGpg5yzaR"
         projectSlug = "Stefans_Teamcity_Project"
         signingPolicySlug = "test-signing"
         artifactConfigurationSlug = "initial"
