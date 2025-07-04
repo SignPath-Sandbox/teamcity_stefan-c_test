@@ -41,9 +41,9 @@ project {
     // publish the signed artifact
     artifactRules = "Loop-signed.ps1"
 
-    // max build duration 5 mins
+    // max build duration CONFIGURABLE mins
     failureConditions {
-      executionTimeoutMin = 3
+      executionTimeoutMin = 0
     }
   }
 }
