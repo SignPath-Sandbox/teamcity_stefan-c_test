@@ -29,7 +29,7 @@ project {
         signingPolicySlug = "test-signing"
         artifactConfigurationSlug = "initial"
         inputArtifactPath = "Loop.ps1"
-        outputArtifactPath = "Loop-signed.ps1"
+        // outputArtifactPath = "Loop-signed.ps1"
         waitForCompletion = false
          parameters = """
                     version: 1.0.0
