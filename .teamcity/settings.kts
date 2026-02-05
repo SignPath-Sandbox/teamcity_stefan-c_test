@@ -30,7 +30,7 @@ project {
         artifactConfigurationSlug = "initial"
         inputArtifactPath = "Loop.ps1"
         outputArtifactPath = "Loop-signed.ps1"
-        waitForCompletion = true
+        waitForCompletion = false
          parameters = """
                     version: 1.0.0
                     other_param: other value
