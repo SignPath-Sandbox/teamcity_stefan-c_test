@@ -22,7 +22,7 @@ project {
 
       // sign step
       signPathSubmitSigningRequest {
-        connectorUrl = "https://pipeline-connector-stable.customersimulation.int.signpath.io/TeamCity/TeamCityServer"     
+        connectorUrl = "https://pipeline-connector-playground.customersimulation.int.signpath.io/TeamCity/TeamCityServer"     
         organizationId = "9ff791fc-c563-44e3-ab8c-86a33c910bbe"
         apiToken = "credentialsJSON:a03ec855-c92c-4f33-8877-b8ab1726afd4"
         projectSlug = "Stefans_Teamcity_Project"
