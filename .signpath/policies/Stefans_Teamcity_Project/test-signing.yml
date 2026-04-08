@@ -1,0 +1,6 @@
+github-actions-policies:
+  disallow_reruns: false
+  runners:
+    require_github_hosted: true
+    allowed_groups:
+      - GitHub Actions
